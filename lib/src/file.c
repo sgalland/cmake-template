@@ -1,13 +1,13 @@
 #include "file.h"
 
-bool FILE_Open(const char *filename, const char *mode, FILE *outfp) {
+bool FILE_Open(const char *filename, const char *mode, FILE **outfp) {
   FILE *fp;
 
-  if ((fp = fopen(filename, mode)) != NULL || ferror(fp)) {
+  if ((fp = fopen(filename, mode)) == NULL || ferror(fp)) {
     return false;
   }
 
-  outfp = fp;
+  *outfp = fp;
   return true;
 }
 
