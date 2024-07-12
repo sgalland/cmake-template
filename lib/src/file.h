@@ -25,8 +25,11 @@
 bool FILE_Open(const char *filename, const char *mode, FILE **outfp);
 
 /**
- * Close a file stream.
+ * Close a file stream. Ensures that the call to fclose will not crash due to a
+ * NULL struct.
  */
 void FILE_Close(FILE *fp);
+
+long FILE_GetFileSize(FILE *fp);
 
 #endif /* FILE_H */
