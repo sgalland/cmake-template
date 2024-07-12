@@ -30,8 +30,10 @@ bool FILE_Open(const char *filename, const char *mode, FILE **outfp);
  */
 void FILE_Close(FILE *fp);
 
-long FILE_GetFileSize(FILE *fp);
-
+/**
+ * Obtains the amount of bytes contained in the file.
+ * @return amount of bytes in the file.
+ */
 long FILE_GetFileSize(FILE *fp);
 
 #endif /* FILE_H */
