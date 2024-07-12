@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/sgalland/Projects/test-projects/build",
+  "command": "/usr/bin/cc   -g -std=gnu90 -o CMakeFiles/exeproj.dir/src/main.c.o -c /home/sgalland/Projects/test-projects/exe/src/main.c",
+  "file": "/home/sgalland/Projects/test-projects/exe/src/main.c",
+  "output": "CMakeFiles/exeproj.dir/src/main.c.o"
+}
+]
