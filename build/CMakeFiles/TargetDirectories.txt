@@ -1,3 +1,0 @@
-/home/sgalland/Projects/test-projects/build/CMakeFiles/exeproj.dir
-/home/sgalland/Projects/test-projects/build/CMakeFiles/edit_cache.dir
-/home/sgalland/Projects/test-projects/build/CMakeFiles/rebuild_cache.dir
