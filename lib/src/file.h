@@ -32,4 +32,6 @@ void FILE_Close(FILE *fp);
 
 long FILE_GetFileSize(FILE *fp);
 
+long FILE_GetFileSize(FILE *fp);
+
 #endif /* FILE_H */
