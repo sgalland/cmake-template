@@ -10,10 +10,6 @@ int main(int argc, char *argv[]) {
 
   fp = NULL;
 
-  /* This probably doesn't work on most compilers... seems to work on GCC though
-   */
-  fclose(NULL);
-
   if (!FILE_Open("C:\\git\\test-projects\\exe\\src\\main.c", "r", &fp)) {
     perror("");
     exit(0);
